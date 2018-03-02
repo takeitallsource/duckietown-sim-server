@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="road_plane_3_double">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>1.5 1.0 0.005</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>1.5 1.0 0.005</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://road_plane_3_double/materials/scripts</uri>
+            <uri>model://road_plane_3_double/materials/textures</uri>
+            <name>vrc/road3_double</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

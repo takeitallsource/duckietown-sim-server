@@ -5,4 +5,5 @@
 killall rosmaster
 killall gzserver
 killall gzclient
+source src/duckietown_gazebo/env_gazebo.sh
 roslaunch duckietown_gazebo duckietown.launch
